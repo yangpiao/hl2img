@@ -1,0 +1,19 @@
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+pre, code {
+  font-family: 'SF Mono', Menlo, Consolas, monospace;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0;
+}
+.code-block {
+  margin: 0;
+  padding: 0;
+}
