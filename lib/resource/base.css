@@ -16,4 +16,5 @@ pre, code {
 .code-block {
   margin: 0;
   padding: 0;
+  white-space: pre-wrap;
 }
