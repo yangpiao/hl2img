@@ -1,14 +1,17 @@
+html, body {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-}
-
-pre, code {
-  font-family: 'SF Mono', Menlo, Consolas, monospace;
+  font-size: 18px;
   line-height: 1.6;
-  font-size: 16px;
 }
-
+code {
+  font-family: 'SF Mono', Menlo, Consolas, monospace;
+}
 .wrapper {
   width: 100%;
   margin: 0;
@@ -17,4 +20,7 @@ pre, code {
   margin: 0;
   padding: 0;
   white-space: pre-wrap;
+}
+.hljs {
+  padding: 1em;
 }
