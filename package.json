@@ -1,6 +1,6 @@
 {
   "name": "hl2img",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Highlight code and save as an image",
   "main": "index.js",
   "author": "Yang Piao <yp@yangpiao.net>",
