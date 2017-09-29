@@ -26,8 +26,4 @@ process.argv.slice(3).forEach((arg, i, args) => {
   }
 });
 
-if (!options.output) {
-  options.output = path.resolve(process.cwd(), 'output.png');
-}
-
 require('../lib/run')(options);
